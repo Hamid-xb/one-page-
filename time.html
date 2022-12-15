@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!--- iconsbox----->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <h3 id="countdown"></h3>
+    <i class="bx bx-wink-smile icons"></i>
+  </div>
+  <!---js time ----->
+  <script>
+    alert("Wait for the countdown to finish");
+    const Days = 700;
+    let time = Days * 300;
+
+    const countdownEl = document.querySelector("#countdown");
+    setInterval(updateCountdown, 1000);
+
+    function updateCountdown() {
+      const Days = Math.floor(time / 60);
+      let uur = time % 60;
+      uur = uur < 10 ? "0" + uur : uur;
+      countdownEl.innerHTML = Days + ":" + uur;
+      time++;
+    }
+  </script>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-size: 25px;
+      background-color: rgb(34, 33, 33);
+      color: #fff;
+    }
+
+    .icons {
+      color: rgb(240, 212, 87);
+    }
+  </style>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta charset="UTF-8" />
+    <meta name="robots" content="all" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Hamid" />
+    <meta name="description" content="one-pager" />
+    <meta name="copyright" content="copyright" />
+    <title>one-pager</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="anders/man.ICO" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+
+  <body class="container">
+    <div class="background"></div>
+    <div class="first-page">
+      <ul>
+        <img id="logo" src="images/logo.svg" alt="logo" />
+        <h1>Daily tappable tech news and stories</h1>
+        <p>klick on the link below here to download this app on your device</p>
+        <img
+          class="foto download-android"
+          src="images/download-ios.svg"
+          alt="download-android"
+        />
+        <img
+          class="foto download-ios"
+          src="images/download-android.svg"
+          alt="download-ios"
+        />
+      </ul>
+    </div>
+    <audio class="audio" src="images/audio.unknown" controls autoplay loop></audio>
+    <div id="Iphone">
+      <img src="images/iphone.png" alt="Iphone">
+    </div>
+    <div class="navbar"></div>
+    <i class="fa-solid fa-house"></i>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-user"></i>
+    <i class="fa-solid fa-check"></i>
+
+    <!--cookies-->
+    <div class="container-cookies">
+      <div class="content">
+        <img src="https://i.ibb.co/ggfBHwm/cookie.png" alt="cookie" />
+        <h3>Cookies consent</h3>
+        <p>
+          This website use cookies to ensure
+          you get the best experience on our  
+          <a href="home.html" class="cookies-link">
+            website
+          </a>
+        </p>
+        <div class="btn">
+          <button class="btn-btn">Accept Cookies</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const cookieBtn = document.querySelector(".container-cookies"),
+        btn = document.querySelector(".btn-btn");
+
+      btn.onclick = () => {
+        alert("You need to go to settings to cancel cookies");
+      };
+    </script>
+    <input type="button" class="button" value="click me">
+  </body>
+</html>
