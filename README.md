@@ -1,49 +1,22 @@
-Welkom bij Irritante Webpagina™ — een zorgvuldig ontworpen digitale nachtmerrie die alles doet wat je níét wilt dat een website doet.
+# 😤 Irritating Webpage
 
-Wat is dit?
+Welcome to **Irritating Webpage™** — a deliberately awful web experience designed to push your patience to its absolute limits.
 
-Deze webpagina is speciaal gebouwd om:
+## What is this?
+This project exists to demonstrate everything a website should **not** do.  
+It is annoying by design, frustrating by nature, and pointless by intention.
 
-Je geduld te testen
+## Features (unfortunately)
+- 🔊 Autoplaying audio that starts without permission
+- 🪟 Endless pop-ups you never asked for
+- 🔄 Buttons that move right before you click them
+- 🐌 Extremely slow load times for no reason
+- ❓ Forms that show errors without explanations
+- 📱 Completely broken responsiveness on all devices
 
-Je muisgebruik te frustreren
-
-Je te laten twijfelen aan moderne webstandaarden
-
-Perfect voor demo’s, grapjes, of om te laten zien hoe het vooral niet moet.
-
-Installatie
-
-Waarom zou je?
-Maar goed, als je erop staat:
-
-git clone irritante-webpagina
+## Installation
+You probably shouldn’t, but if you insist:
+```bash
+git clone irritating-webpage
+cd irritating-webpage
 open index.html
-
-Gebruik
-
-Open de pagina
-
-Zucht diep
-
-Vraag je af wie dit ooit heeft goedgekeurd
-
-Waarschuwing
-
-Langdurige blootstelling kan leiden tot:
-
-Boos klikken
-
-Hardop “serieus?” zeggen
-
-Onverklaarbare haat richting webdesign
-
-Waarom bestaat dit?
-
-Omdat iemand ooit zei:
-
-“Hoe erg kan het zijn?”
-
-Licentie
-
-Doe ermee wat je wilt, maar zeg niet dat we je niet gewaarschuwd hebben.
